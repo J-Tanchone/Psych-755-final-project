@@ -1,2 +1,7 @@
 # Psych-755-final-project
 
+This repository contains the final project for Psych 755, which focuses on predicting somatic symptoms using both classical and deep learning models. The project aims to examine whether psychological variables can help predict individual differences in somatic symptom reporting. To address this question, the analysis includes a range of machine learning methods, including ordinary least squares (OLS), k-nearest neighbors (k-NN), random forest, and a neural network built with Keras.
+
+The workflow begins with exploratory data analysis (EDA) to understand the distribution and relationships among variables. Sanity checks, such as Cronbach’s alpha, are conducted to assess the internal consistency of psychological scales. Model training is followed by evaluations based on accuracy and area under the curve (AUC) metrics to compare performance across models.
+
+Feature importance is explored using SHAP (SHapley Additive exPlanations) to interpret which psychological predictors contribute most to each model's decisions. The dataset and analysis code are uploaded to GitHub to ensure that others—such as advisors and collaborators—can easily access the materials and reproduce the analysis without needing to download the data separately.
